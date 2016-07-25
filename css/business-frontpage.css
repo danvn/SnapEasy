@@ -4,19 +4,48 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif
+    font-weight: 700;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     height: 400px;
+    padding-top: 125px;
+    padding-bottom: 50px;
     background: url('http://placehold.it/1920x400') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-align: center;
+}
+
+.header-message h1 {
+    margin: 0;
+    font-size: 3em;
+}
+.description{
+    height: 600px;
+    padding-top: 100px;
+    color: #000;
+}
+
+.description-message {
+    text-align: center;
+}
+
+.section-spacer{
+    width: 1200px;
+    border-top: 1.5px solid #e7e7e7;
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
@@ -24,6 +53,10 @@ body {
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
+}
+
+.image-title {
+    text-align: center;
 }
 
 .img-center {
