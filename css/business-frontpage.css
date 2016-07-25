@@ -21,8 +21,12 @@ h6 {
     height: 400px;
     padding-top: 125px;
     padding-bottom: 50px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
-    background: url('../geoTags.png') center center no-repeat scroll;
+    background: 
+        linear-gradient(
+            rgba(0,0,0,0.1),
+            rgba(0,0,0,0.1)
+            ),
+        url('../geoTags.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
