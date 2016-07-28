@@ -84,6 +84,14 @@ h6 {
   }
 
   .business-header{
+    width: 105%;
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+
+  .description{
     width: 100%;
   }
 
