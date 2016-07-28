@@ -72,10 +72,22 @@ h6 {
     border-top: 1.5px solid #e7e7e7;
 }
 
+
+
 @media(max-width: 767px){
   .section-spacer{
     width: 50%;
   }
+
+  .banner-spacer{
+    width: 50%;
+  }
+
+  .business-header{
+    width: 100%;
+  }
+
+
 }
 
 
