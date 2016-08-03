@@ -230,8 +230,18 @@ pre {
 ul{
   list-style-type: none;
   text-align: left;
-
 }
 
+div.steps {
+    background-color: #71EEB8;
+    color: white;
+    margin: -15px -10px 20px 20px;
+    padding: 20px;
+}
+
+div.stepDescription{
+  background-color: white;
+  margin: -15px 0 10px 0;
+}
 
 
