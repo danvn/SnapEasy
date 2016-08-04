@@ -283,7 +283,7 @@ Sliders Style
   text-align: center;
   z-index: 15;
 }
-#owl-hero .caption1{
+#owl-hero .item .caption1{
   position: absolute;
   top: 40%;
   margin-top: -104px;
@@ -296,6 +296,11 @@ Sliders Style
 #owl-hero .item .caption1 h6 {
   color: #fff;
   margin: 0;
+}
+#owl-hero .item .caption1 h1 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 #owl-hero .item .caption1 h1 span {
   font-weight: 700;
