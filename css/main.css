@@ -34,8 +34,7 @@ html{
   margin-bottom: 40px;
 }
 .container{
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 /* ==========================================================================
 Typography
