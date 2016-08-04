@@ -210,7 +210,7 @@ Navigation Style
 }
 .navbar-default .navbar-header {
   width: 28%;
-  padding-right: 15px;
+  padding-right: 0px;
 }
 .navbar-default .nav-wrap {
   width: 50%;
@@ -741,7 +741,7 @@ Media Queries Style
   }
   .navbar-default .navbar-header {
     width: 100%;
-    padding-right: 0;
+    padding-right: 0px;
   }
   .navbar-default .navbar-header .navbar-brand {
     height: auto;
