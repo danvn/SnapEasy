@@ -34,7 +34,8 @@ html{
   margin-bottom: 40px;
 }
 .container{
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 /* ==========================================================================
 Typography
@@ -206,7 +207,7 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-  background: rgba(13, 13, 13, 0.6);
+  background: #24242a;
   margin-bottom: 0;
   border: none;
 }
@@ -804,6 +805,10 @@ Media Queries Style
   }
   #owl-hero .owl-buttons {
     display: none;
+  }
+
+  #portfolio {
+    height: auto;
   }
 
   /*-- Services --*/
