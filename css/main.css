@@ -454,6 +454,7 @@ Portfolio Style
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 #portfolio h2 {
   text-transform: uppercase;
@@ -811,7 +812,7 @@ Media Queries Style
   }
 
   #portfolio {
-    height: auto;
+    height: 100%;
   }
 
   /*-- Services --*/
