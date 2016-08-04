@@ -35,7 +35,6 @@ html{
 }
 .container{
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 /* ==========================================================================
 Typography
@@ -207,7 +206,7 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-  background: #24242a;
+  background: rgba(13, 13, 13, 0.6);
   margin-bottom: 0;
   border: none;
   overflow: hidden;
