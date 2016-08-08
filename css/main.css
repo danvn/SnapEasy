@@ -424,8 +424,22 @@ Services Style
 #services .services-box .col-md-4 .media-left,
 #services .services-box .col-md-4 .media-right,
 #services .services-box .col-md-4 .media-body {
+  vertical-align: middle;
+}
+#services .services-box .col-md-4 .media-left,
+#services .services-box .col-md-4 .media-right,
+#services .services-box .col-md-4 .media-body {
   padding-right: 30px;
-  vertical-align: baseline;
+}
+#services .services-box .col-md-4 .a {
+  padding-right: 42px;
+  padding-left: 9px;
+}
+#services .services-box .col-md-4 .b {
+  padding-right: 40px;
+}
+#services .services-box .col-md-4 .c {
+  padding-right: 30px;
 }
 #services .services-box .col-md-4 .media-left p,
 #services .services-box .col-md-4 .media-right p,
@@ -796,6 +810,12 @@ Media Queries Style
   }
   .navbar-default .collapse.in {
     display: block !important;
+  }
+  #services .services-box .col-md-4 .b {
+    padding-right: 33px;
+  }
+  #services .services-box .col-md-4 .c {
+    padding-right: 23px;
   }
 
   /*-- Sliders --*/
