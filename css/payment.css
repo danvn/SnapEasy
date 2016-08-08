@@ -1,0 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: none;
+  
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.btn-transparent {
+  background: transparent;
+  border: 3px solid #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active {
+  background: #fff;
+  color: #0d0d0d;
+  text-decoration: none;
+}
+
+.full {
+  background: #fffc00 no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.order {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: #000;
+}
+
+#services {
+  padding: 60px 0;
+  text-align: center;
+  font-weight: bold;
+}
+#services h1, h3 {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+}
+#services p {
+  color: #000;
+}
+#services .services-box {
+  margin-top: 40px;
+}
+#services .services-box .a {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 5px;
+}
+
+#services .services-box .b {
+  margin-bottom: 20px;
+}
+
+#services .services-box .col-md-4 .media-left,
+#services .services-box .col-md-4 .media-right,
+#services .services-box .col-md-4 .media-body {
+  padding-right: 30px;
+}
+
+#services .services-box .col-md-4 .media-left h3,
+#services .services-box .col-md-4 .media-right h3,
+#services .services-box .col-md-4 .media-body h3 {
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+}
+#services .services-box .col-md-4 .media-left span,
+#services .services-box .col-md-4 .media-right span,
+#services .services-box .col-md-4 .media-body span {
+  font-size: 36px;
+  color: #000;
+}
