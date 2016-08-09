@@ -536,9 +536,10 @@ Work Process Style
   padding: 60px 0;
   text-align: center;
 }
-#work-process .col-lg-3 {
+#work-process .services-box {
   margin-top: 40px;
 }
+
 #work-process h2 {
   text-transform: uppercase;
 }
@@ -552,6 +553,37 @@ Work Process Style
   margin-bottom: 15px;
 }
 
+
+#work-process .services-box .col-lg-3 {
+  margin-bottom: 20px;
+}
+#work-process .services-box .col-lg-3 .media-left,
+#work-process .services-box .col-lg-3 .media-right,
+#work-process .services-box .col-lg-3 .media-body {
+  vertical-align: middle;
+}
+#work-process .services-box .col-lg-3 .media-left,
+#work-process .services-box .col-lg-3 .media-right,
+#work-process .services-box .col-lg-3 .media-body {
+  padding-right: 30px;
+}
+
+#work-process .services-box .col-lg-3 .media-left p,
+#work-process .services-box .col-lg-3 .media-right p,
+#work-process .services-box .col-lg-3 .media-body p {
+  text-align: left;
+}
+#work-process .services-box .col-lg-3 .media-left h5,
+#work-process .services-box .col-lg-3 .media-right h5,
+#work-process .services-box .col-lg-3 .media-body h5 {
+  text-align: left;
+  font-weight: 900;
+}
+#work-process .services-box .col-lg-3 .media-right span,
+#work-process .services-box .col-lg-3 .media-body span {
+  font-size: 36px;
+  color: #fff;
+}
     /* ==========================================================================
 Fun Facts Style
 ========================================================================== */
