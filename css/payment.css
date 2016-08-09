@@ -59,10 +59,13 @@ html{
   text-align: center;
   font-weight: bold;
 }
-#services h1, h3 {
+#services p {
   text-transform: uppercase;
   color: #000;
+  font-size: 75px;
   font-weight: 900;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  text-align: center;
 }
 #services p {
   color: #000;
@@ -77,25 +80,33 @@ html{
 }
 
 #services .services-box .b {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  padding-right: -20px;
+  padding-left: -20px;
+}
+#services .services-box .col-md-2 {
+  padding: 90px;
 }
 
-#services .services-box .col-md-4 .media-left,
-#services .services-box .col-md-4 .media-right,
 #services .services-box .col-md-4 .media-body {
-  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
-#services .services-box .col-md-4 .media-left h3,
-#services .services-box .col-md-4 .media-right h3,
-#services .services-box .col-md-4 .media-body h3 {
+
+#services .services-box .col-md-4 .media-body h3, h1 {
   text-transform: uppercase;
   color: #000;
   text-align: center;
+  font-weight: 900;
+
 }
-#services .services-box .col-md-4 .media-left span,
-#services .services-box .col-md-4 .media-right span,
-#services .services-box .col-md-4 .media-body span {
-  font-size: 36px;
+@media (max-width: 992px) {
+  #services p {
+  text-transform: uppercase;
   color: #000;
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  text-align: center;
+}
 }
