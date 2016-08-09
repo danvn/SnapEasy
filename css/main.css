@@ -585,6 +585,39 @@ Work Process Style
   color: #fff;
 }
 
+#buy-now {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+  text-decoration: none;
+}
+
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #000;
+    color: #000;
+}
+
+
     /* ==========================================================================
 Fun Facts Style
 ========================================================================== */
