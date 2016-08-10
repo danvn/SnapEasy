@@ -1,10 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin-top: 50px;
   margin-bottom: 50px;
   background: none;
-  
 }
 
 html{
@@ -40,11 +41,12 @@ html{
 }
 
 .full {
-  background: #fffc00 no-repeat center center fixed;
+  background: url(../img/BackgroundShuffle_ugly.png); no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 .order {
@@ -53,6 +55,65 @@ html{
   font-weight: bold;
   background-color: #000;
 }
+
+/*Navigation Bar Stuff*/
+.navbar-default {
+  background: rgba(13, 13, 13, 0.6);
+  margin-bottom: 0;
+  border: none;
+  overflow: hidden;
+}
+.navbar-default .navbar-header {
+  width: 28%;
+}
+.navbar-default .nav-wrap {
+  width: 50%;
+}
+.navbar-default .nav > li > a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 35px 15px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:active {
+  color: #a3a3a3;
+}
+.navbar-default .social-media {
+  float: right;
+  padding: 0 15px;
+}
+.navbar-default .social-media i {
+  font-size: 22px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #a3a3a3;
+}
+
+.top-nav-collapse {
+  background: #24242a;
+}
+.top-nav-collapse .navbar-brand {
+  height: auto;
+}
+.top-nav-collapse .navbar-brand img {
+  width: 52px;
+  height: 52px;
+}
+.top-nav-collapse .nav > li > a {
+  padding: 30px 15px;
+}
+/*End Navigation Bar */
 
 #services {
   padding: 60px 0;
@@ -69,6 +130,8 @@ html{
 }
 #services p {
   color: #000;
+  text-shadow: 0 0 0.2em #000,0 0 0.2em #87F,
+        0 0 0.2em #87F;
 }
 #services .services-box {
   margin-top: 40px;
@@ -98,8 +161,9 @@ html{
   color: #000;
   text-align: center;
   font-weight: 900;
-
 }
+
+
 @media (max-width: 992px) {
   #services p {
   text-transform: uppercase;
