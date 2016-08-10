@@ -46,6 +46,7 @@ h1 {
   color: #fff;
   font-weight: 300;
   letter-spacing: 0.16em;
+  font-family: "Bangers"
 }
 
 h2 {
@@ -364,7 +365,7 @@ Sliders Style
 #owl-hero .item .brand h6 {
   color: #fff;
   margin: 0;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 3px 3px 9px black;
 }
 #owl-hero .item .brand h1 span {
   font-weight: 700;
