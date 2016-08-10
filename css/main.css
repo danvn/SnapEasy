@@ -170,6 +170,22 @@ Buttons Styles
   text-decoration: none;
 }
 
+.btn-primary {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #000;
+  background-color: #fffaaa;
+  border-color: #000;
+}
+
 /* ==========================================================================
 Layout 
 ========================================================================== */
@@ -555,6 +571,11 @@ Work Process Style
   margin-bottom: 15px;
 }
 
+
+#buy-now {
+  text-align: center;
+  padding-bottom: 60px;
+}
     /* ==========================================================================
 Fun Facts Style
 ========================================================================== */
