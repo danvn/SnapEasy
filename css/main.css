@@ -322,7 +322,7 @@ Sliders Style
 }
 #owl-hero .item .thirdPanel{
   position: absolute;
-  top: 30%;
+  top: 45%;
   margin-top: -104px;
   left: 0;
   right: 0;
@@ -339,6 +339,7 @@ Sliders Style
   margin-bottom: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px black;
+  line-height: 25px;
 }
 #owl-hero .item .thirdPanel h1 span {
   font-weight: 700;
@@ -361,6 +362,7 @@ Sliders Style
   text-transform: uppercase;
   font-weight: 350;
   text-shadow: 2px 2px 4px black;
+  line-height: 50px;
 }
 #owl-hero .item .brand h6 {
   color: #fff;
