@@ -344,6 +344,7 @@ Sliders Style
 #owl-hero .item .thirdPanel h1 span {
   font-weight: 700;
   text-shadow: 2px 2px 4px black;
+  text-decoration: overline;
 }
 
 #owl-hero .item .brand{
@@ -371,7 +372,6 @@ Sliders Style
 }
 #owl-hero .item .brand h1 span {
   font-weight: 700;
-  text-decoration: overline;
 }
 
 #owl-hero .owl-pagination {
