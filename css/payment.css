@@ -140,8 +140,7 @@ hr{
 }
 #services p {
   color: #000;
-  text-shadow: 0 0 0.2em #000,0 0 0.2em #87F,
-        0 0 0.2em #87F;
+  text-shadow: 0 0 0.2em #000,0 0 0.2em #b6cdff,0 0 0.2em #fff;
 }
 #services .services-box {
   margin-top: 40px;
