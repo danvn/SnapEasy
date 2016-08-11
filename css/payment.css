@@ -188,10 +188,24 @@ hr{
   text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
   text-align: center;
 }
-#services .services-box .col-md-3 .media-body {
-  padding-bottom: 40px;
-}
+  #services .services-box .col-md-3 .media-body {
+    padding-bottom: 40px;
+  }
   hr{
     width: 50%;
   }
+  #services .services-box .boarder{
+  margin: 0;
+  border-right: 0px solid #757575;
+  padding: 0;
+}
+  #services .services-box .start-boarder{
+  margin: 0;
+  border-right: 0px solid #757575;
+  padding: 0;
+  }
+  #services .services-box .end-boarder{
+  margin: 0;
+  padding: 0;
+}
 }
