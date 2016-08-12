@@ -445,6 +445,13 @@ Welcome Style
 #welcome h2 span {
   font-weight: 700;
 }
+#welcome h1 {
+  font-size: 150px;
+}
+#welcome h1 span{
+  text-decoration: overline;
+  font-size: 150px;
+}
 #welcome img {
   margin-top: 40px;
   margin-bottom: 40px;
