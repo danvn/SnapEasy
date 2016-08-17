@@ -235,7 +235,7 @@ Navigation Style
   overflow: hidden;
 }
 .navbar-default .navbar-header {
-  width: 28%;
+  width: 30%;
 }
 .navbar-default .nav-wrap {
   width: 50%;
@@ -245,7 +245,7 @@ Navigation Style
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 35px 15px;
+  padding: 35px 11px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
