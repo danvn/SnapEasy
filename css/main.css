@@ -690,7 +690,15 @@ Our Team Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-  background-image: url("../img/testimonials/Testimonials.jpg");
+  /*background-image: url("../img/BackgroundShuffle_ugly.png");*/
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(../img/BackgroundShuffle_ugly.png);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
