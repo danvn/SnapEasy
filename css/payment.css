@@ -213,3 +213,64 @@ hr{
   padding: 0;
 }
 }
+
+/*Alex's Styles*/
+#services .modal-wrap {
+  background-color: white;
+  margin-top: 2%;
+}
+
+#services p.normal-text {
+  text-shadow: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#services form input {
+  margin: 5px;
+  padding: 5px;
+}
+
+#services button {
+
+}
+
+/*Styles for spans*/
+#services .modal-header .circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+#services .modal-header .is-active {
+  background-color: black;
+}
+
+/*New button styles*/
+.btn-transparent2 {
+  background: transparent;
+  border: 3px solid #0d0d0d;
+  padding: 15px 30px;
+  font-size: 14px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #0d0d0d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.btn-transparent2:hover,
+.btn-transparent2:focus,
+.btn-transparent2:active {
+  background: #0d0d0d;
+  color: #fff;
+  text-decoration: none;
+}
