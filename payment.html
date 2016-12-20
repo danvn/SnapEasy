@@ -35,6 +35,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body>
@@ -73,9 +74,10 @@
         </div>
     </nav>
 
+<div class="whole-page">
     <!-- SERVICES -->
     <section id="services">
-        <div class="container">
+        <div class="container modal-container">
 
             <!-- ////////////////// -->
             <!-- //THE MODAL CODE// -->
@@ -85,6 +87,7 @@
                 <div class="col-md-12 modal-wrap">
                     <div class="modal-header">
                         <span class="circle is-active"></span>
+                        <span class="circle"></span>
                         <span class="circle"></span>
                         <span class="circle"></span>
                     </div>
@@ -107,7 +110,7 @@
                         </div>
 
                         <!-- Second Modal Tab -->
-                        <div class="modal-body modal-body-step-2 is-showing">
+                        <div class="modal-body modal-body-step-2">
                             <div class="title">
                                 <h1>Step 2</h1></div>
                             <div class="description">
@@ -121,7 +124,7 @@
                         </div>
 
                         <!-- Third Modal Tab -->
-                        <div class="modal-body modal-body-step-3 is-showing">
+                        <div class="modal-body modal-body-step-3">
                             <div class="title">
                                 <h1>Step 3</h1></div>
                             <div class="description">
@@ -130,7 +133,18 @@
                                     <input type="text" placeholder="Name"><br>
                                     <input type="text" placeholder="Email"><br>
                                 </form>
-                                <a class="btn btn-transparent2">Finish</a>
+                                <a class="btn btn-transparent2">Next</a>
+                            </div>
+                        </div>
+
+                        <!-- Fourth Modal Tab -->
+                        <div class="modal-body modal-body-step-4">
+                            <div class="title">
+                                <h1>Congratulations!</h1></div>
+                            <div class="description">
+                                <p class="normal-text">Your custom geotag will be ready
+                                in X hours.</p>
+                                <img src="http://www.reactiongifs.com/r/2013/06/Colbert-High-Five.gif"> <br  />
                             </div>
                         </div>
                     </div>
@@ -141,7 +155,7 @@
             <!-- //SERVICES//  -->
             <!-- //////////// -->
 
-            <p>
+            <p class="remove">
                 <font color="white" face="Bangers"><u>GeoFilter Packages</u></font>
             </p>
             <div class="services-box">
@@ -162,7 +176,7 @@
                                 <li> 20,000 sq/ft. GeoFence </br>(About 3 House Lots)</li>
                             </ul>
                             <div class="order">
-                                <a class="btn btn-transparent" href="https://snapeasy.typeform.com/to/TtPpNN">Buy Now</a>
+                                <a class="btn btn-transparent" href="#0">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -231,4 +245,7 @@
             </div>
         </div>
     </section>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/payment.js"></script>
 </body>

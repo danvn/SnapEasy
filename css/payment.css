@@ -213,11 +213,22 @@ hr{
   padding: 0;
 }
 }
-
+/*WHERE MY STYLES START*/
 /*Alex's Styles*/
 #services .modal-wrap {
   background-color: white;
-  margin-top: 2%;
+  margin-top: 5%;
+  z-index: 1;
+}
+#services .modal-body {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  left: 0px;
+  display: none;
+}
+#services .is-showing {
+  display: block;
 }
 
 #services p.normal-text {
@@ -231,11 +242,14 @@ hr{
   padding: 5px;
 }
 
-#services button {
-
-}
-
 /*Styles for spans*/
+/*MODAL HEADER STYLES*/
+#services .modal-wrap {
+  display: none;
+}
+#services .modal-header {
+  width: 100%;
+}
 #services .modal-header .circle {
   display: inline-block;
   width: 10px;
@@ -246,6 +260,8 @@ hr{
 #services .modal-header .is-active {
   background-color: black;
 }
+
+
 
 /*New button styles*/
 .btn-transparent2 {
@@ -273,4 +289,50 @@ hr{
   background: #0d0d0d;
   color: #fff;
   text-decoration: none;
+}
+
+.test-color{
+  color: red;
+}
+
+.animate-out{
+  animation: out 300ms ease-in-out forwards;
+}
+
+.animate-in{
+  animation: in 500ms ease-in-out forwards;
+  display: block;
+}
+
+.animate-up{
+  animation: up 300ms ease-in-out forwards;
+}
+
+@keyframes out {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(1000px);
+    display: none;
+  }
+
+}
+
+@keyframes in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.whole-page {
+  height: 150%;
+  width: 100%;
+}
+
+.no-display {
+  display: none;
 }
