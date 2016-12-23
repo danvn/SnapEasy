@@ -1,4 +1,5 @@
 // ONCLICK BRING UP MODAL
+
 var serviceBox = $('#services .services-box');
 var modal_wrap = $('.modal-wrap');
 
@@ -9,6 +10,7 @@ $('.btn-transparent').click(function(){
   setTimeout(function(){
     serviceBox.css('display', 'none');
     modal_wrap.css('display', 'block');
+    $('.cognito form').css('margin', '0 auto');
   }, 500);
 });
 
